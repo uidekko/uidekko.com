@@ -1,0 +1,311 @@
+body {
+    color: var(--color-light) !important;
+}
+
+/*.navbar-blur {
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+}*/
+
+.email-a {
+    color: var(--color-light);
+}
+
+.email-a:hover {
+    color: var(--color-light) !important;
+}
+
+.divide{
+    background: var(--color-light);
+}
+
+
+.bottom-line {
+    border-bottom: 10px solid var(--color-light);
+    color: var(--color-light);
+}
+
+.bottom-line:hover {
+    border-bottom: 10px solid var(--color-light);
+    color: var(--color-light) !important;
+}
+
+.container-footer {
+    border-top: 4px solid var(--color-light);
+}
+
+.img_weixin {
+    /*border: 1px solid var(--color-light);*/
+    /*mix-blend-mode: multiply;*/
+}
+
+.swiper-slide a{
+    color:var(--color-light);
+}
+
+.scroll-arrow {
+    background: url(../images/img/scroll-arrow-w.svg);
+}
+
+.scroll-circle {
+    background: url(../images/img/scroll-w.svg);
+}
+
+.hello {
+    color: var(--color-light);
+}
+
+.hello-mobile{
+    color: var(--color-light);
+}
+
+.article-btn {
+    /*border-top: 4px solid var(--color-light);*/
+}
+
+.email-a::after,
+.footer-bottom-line::after {
+    background: var(--color-light);
+}
+
+.footer-bottom-line::after {
+    background: var(--color-light);
+}
+
+
+.pv-date {
+    color: var(--color-brand);
+    opacity: 1;
+}
+
+.section {
+    background: var(--color-dark);
+}
+
+.section-bg {
+    background-image: url(../images/uidekko-covers/uidekko-about-night-bg.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.section-footer {
+    background: var(--color-dark) !important;
+    padding-top: 0vw;
+    position: relative;
+}
+
+.about-title {
+    color: var(--color-light);
+}
+
+.about-h2 {
+    color: var(--color-light);
+}
+
+.article-title {
+    color: var(--color-light);
+}
+
+.gradient-text {
+    background-image: linear-gradient(104deg, #dec880, #fff 23%, #ff347d 50%, #827ded) !important;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container-filter li.tab-fixed{
+    border-color: hsla(0, 0%, 100%, 1);
+    background-color: hsla(0,0%,90%,0.4);
+    -webkit-backdrop-filter: brightness(100%) blur(12px);
+    backdrop-filter: brightness(100%) blur(12px);
+}
+
+.dekko-btn {
+    color: var(--color-dark) !important;
+    background-image: linear-gradient(104deg, #dec880, #fff 23%, #ff347d 50%, #827ded);
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.dekko-btn:hover {
+    color: var(--color-dark) !important;
+    background-image: linear-gradient(104deg, #dec880, #fff 23%, #ff347d 50%, #827ded);
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.tag{
+    border: 1px solid #666666;
+}
+
+/*.article-btn {
+    border-bottom: 1px solid rgba(255,255,255,.1);
+}*/
+
+.article-bottom-line{
+    /*border-bottom: 1px solid rgba(255,255,255,.1);*/
+    /*padding: 0 10px;*/
+}
+
+.article-btn a:hover {
+    color: rgba(5,235,5,1) !important;
+}
+
+.text-muted {
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.text-dark {
+    color: var(--color-light) !important
+}
+
+.text-dark:hover {
+    color: var(--color-brand) !important
+}
+
+#topnav .navbar-toggle.open span:hover {
+    background-color: var(--color-light)
+}
+.navigation-menu>li>a {
+    color: var(--color-light) !important
+}
+.navigation-menu>li>a:hover {
+    /*color: var(--color-light) !important*/
+}
+
+
+.home-social a {
+    color: var(--color-light);
+}
+
+.home-social a:hover {
+    color: var(--color-light) !important;
+}
+.container-filter a {
+    transition: transform .6s cubic-bezier(.4,.64,.68,1);
+    -webkit-transition: transform .6s cubic-bezier(.4,.64,.68,1);
+    -moz-transition: transform .6s cubic-bezier(.4,.64,.68,1);
+    -o-transition: transform .6s cubic-bezier(.4,.64,.68,1);
+    transition: transform .6s cubic-bezier(.4,.64,.68,1);
+    color: var(--color-light) !important;
+}
+
+.container-filter a:hover {
+    color: var(--color-brand) !important;
+    opacity: 1;
+}
+
+.container-filter a.active {
+    color: var(--color-light) !important;
+    opacity: 1;
+    background: var(--color-brand);
+}
+
+@media(min-width:992px) {
+
+    .navigation-menu>li:hover>a {
+        color: var(--color-light) !important
+    }
+
+    #topnav .navigation-menu>li:hover>a {
+        color: var(--color-light)
+    }
+}
+
+@media(max-width:991px) {
+
+        body {
+    background: var(--color-dark) !important;
+}
+
+    .img_weixin {
+        /*border: 1px solid var(--color-light);*/
+    }
+    .navigation-menu .nav-active a{
+        color: var(--color-brand) !important;
+    }
+
+    #navigation {
+        background-color: var(--color-dark)
+    }
+
+
+    #topnav {
+        /*mix-blend-mode: difference;*/
+    }
+
+    #topnav .navbar-toggle span {
+        background-color: var(--color-light);
+    }
+
+    #backtotop {
+        text-align: right;
+    }
+
+    .container-footer {
+        border-top: 2px solid var(--color-light);
+    }
+
+    .about-p {
+    color: var(--color-light);
+    }
+    
+    button.mfp-arrow:hover {
+    background: transparent;
+    }
+    .section-footer {
+    padding-top: 10vw;
+    padding-bottom: 8vw;
+    }
+    .section-footer-mobile {
+    padding-top: 16vw;
+    }
+    .back-top{
+        display: none;
+    }
+}
+
+@media(max-width:768px) {
+    .navbar-sticky .logo {
+        color: var(--color-dark) !important
+    }
+
+}
+
+/*----------magnific-popup------------*/
+.mfp-bg {
+    background: var(--color-dark);
+}
+.mfp-title {
+    color: var(--color-light);
+}
+
+.mfp-arrow-right:after,
+.mfp-arrow-right .mfp-a {
+    border-left: 17px solid var(--color-light);
+    margin-left: 39px
+}
+.mfp-arrow-right:hover:after {
+    border-left: 17px solid var(--color-light);
+}
+
+.mfp-arrow-left:after,
+.mfp-arrow-left .mfp-a {
+    border-right: 17px solid var(--color-light);
+    margin-left: 31px
+}
+
+.mfp-arrow-left:before,
+.mfp-arrow-left .mfp-b {
+    margin-left: 25px;
+    border-right: 0px solid var(--color-light)
+}
+
+button.mfp-arrow:hover {
+    background: #333333;
+
+}
+
+
+
